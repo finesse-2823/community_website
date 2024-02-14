@@ -64,31 +64,31 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a href="index-2.html" class="nav-link">Home</a>
+              <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="causes.html" class="nav-link">Solutions</a>
+              <a href="#solutions" class="nav-link">Solutions</a>
             </li>
             <!-- <li class="nav-item">
               <a href="donate.html" class="nav-link">Donate</a>
             </li> -->
             <li class="nav-item">
-              <a href="blog.html" class="nav-link">Blog</a>
+              <a href="#gallery" class="nav-link">Gallery</a>
             </li>
             <li class="nav-item">
-              <a href="gallery.html" class="nav-link">Gallery</a>
+              <a href="#blog" class="nav-link">Blog</a>
             </li>
             <li class="nav-item">
-              <a href="event.html" class="nav-link">Events</a>
+              <a href="#event" class="nav-link">Events</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="ticket.html" class="nav-link btn custom-btn d-lg-block d-none">EDO 4.0</a>
+              <a href="#" class="nav-link btn custom-btn d-lg-block d-none" style="border-radius: 2rem;">EDO 4.0</a>
             </li>
           </ul>
         </div>
@@ -134,13 +134,14 @@
     </div>
 
     <section class="ftco-counter ftco-intro" id="section-counter">
-      <div class="container">
+      <div class="container" id="about">
         <div class="row no-gutters">
           <div
             class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate"
           >
             <div class="block-18 color-1 align-items-stretch">
               <div class="text">
+
                 <!-- <span>About us</span> -->
                 <!-- <strong class="number" data-number="1432805">0</strong> -->
                 <span
@@ -149,6 +150,7 @@
                   thriving ecosystem where startups flourish, innovate, and
                   achieve unparalleled success.</span
                 >
+
               </div>
             </div>
           </div>
@@ -246,7 +248,7 @@
     </section>
 
     <section class="ftco-section bg-light">
-      <div class="container-fluid">
+      <div class="container-fluid"  id="solutions">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-5 heading-section ftco-animate text-center">
             <h2 class="mb-4">Tailored Solutions</h2>
@@ -454,6 +456,8 @@
       </div>
     </section>
 
+    <!-- testimonials -->
+
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -546,8 +550,9 @@
       </div>
     </section>
 
+    <!-- Gallery section -->
     <section class="ftco-gallery">
-      <div class="d-md-flex">
+      <div class="d-md-flex"  id="gallery">
         <a
           href="images/cause-2.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
@@ -625,8 +630,9 @@
       </div>
     </section>
 
+    <!-- blog section -->
     <section class="ftco-section">
-      <div class="container">
+      <div class="container"  id="blog">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
             <h2 class="mb-4">Recent from blog</h2>
@@ -726,6 +732,7 @@
       </div>
     </section>
 
+    <!-- chaper section -->
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -740,7 +747,7 @@
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">
               <a
-                href="blog-single.html"
+                href=""
                 class="block-20"
                 style="background-image: url('images/image_1.jpg')"
               >
@@ -768,7 +775,7 @@
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">
               <a
-                href="blog-single.html"
+                href="#"
                 class="block-20"
                 style="background-image: url('images/image_2.jpg')"
               >
@@ -796,7 +803,7 @@
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">
               <a
-                href="blog-single.html"
+                href="#"
                 class="block-20"
                 style="background-image: url('images/image_3.jpg')"
               >
@@ -825,8 +832,9 @@
       </div>
     </section>
 
+    <!-- Event section -->
     <section class="ftco-section bg-light">
-      <div class="container">
+      <div class="container"  id="events">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
             <h2 class="mb-4">Our Latest Events</h2>
@@ -954,22 +962,31 @@
       </div>
     </section>
 
+    <!-- Volunteer section -->
     <section
       class="ftco-section-3 img"
       style="background-image: url(images/bg_3.jpg)"
     >
       <div class="overlay"></div>
       <div class="container">
-        <div class="row d-md-flex">
+        <div class="row d-md-flex" style="align-content: stretch;">
           <div class="col-md-6 d-flex ftco-animate">
             <div
               class="img img-2 align-self-stretch"
-              style="background-image: url(images/bg_4.jpg)"
+              style="background-image: url(images/bg_4.jpg);"
             ></div>
           </div>
-          <div class="col-md-6 volunteer pl-md-5 ftco-animate">
+          <div class="col-lg-6 volunteer pl-md-5 ftco-animate">
             <h3 class="mb-3">Become a part of something bigger</h3>
-            <form action="#" class="volunter-form">
+            <p style="height: 200px;">
+                  <a
+                    href="https://forms.gle/rcy7KGTLrfSsSHhR6"
+                    target="_blank"
+                    class="btn btn-white px-3 py-2 mt-2"
+                    >Join now!</a
+                  >
+            </p>
+            <!-- <form action="#" class="volunter-form">
               <div class="form-group">
                 <input
                   type="text"
@@ -1001,7 +1018,7 @@
                   class="btn btn-white py-3 px-5"
                 />
               </div>
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
@@ -1104,12 +1121,15 @@
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Site Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Home</a></li>
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Donate</a></li>
-                <li><a href="#" class="py-2 d-block">Causes</a></li>
-                <li><a href="#" class="py-2 d-block">Event</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
+                <li><a href="index.html" class="py-2 d-block">Home</a></li>
+                <li><a href="#about" class="py-2 d-block">About</a></li>
+                <!-- <li><a href="#" class="py-2 d-block">Donate</a></li> -->
+                <li><a href="#solutions" class="py-2 d-block">Solutions</a></li>
+                <li><a href="#event" class="py-2 d-block">Event</a></li>
+                <li><a href="#blog" class="py-2 d-block">Blog</a></li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link btn custom-btn d-lg-block d-none" style="border-radius: 2rem; color:#fd7e14">EDO 4.0</a>
+                </li>
               </ul>
             </div>
           </div>
