@@ -41,12 +41,24 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- nav bar start -->
     <nav
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
       id="ftco-navbar"
     >
       <div class="container">
-        <a class="navbar-brand" href="index-2.html">Welfare</a>
+
+        <!-- logo -->
+        <div id="logo" class="navbar-brand me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+        <!-- <a href="index.html" class="scrollto"><img src="./images/logo-sm.jpg" alt="" title=""></a> -->
+        </div>
+        <!-- logo end -->
+
+        <a class="navbar-brand" href="index.html"
+          ><div style="color: #fd7e14">SCOMM</div></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -61,29 +73,32 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="index-2.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="causes.html" class="nav-link">Causes</a>
-            </li>
-            <li class="nav-item">
-              <a href="donate.html" class="nav-link">Donate</a>
-            </li>
-            <li class="nav-item">
-              <a href="blog.html" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="gallery.html" class="nav-link">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a href="event.html" class="nav-link">Events</a>
-            </li>
             <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#solutions" class="nav-link">Solutions</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="donate.html" class="nav-link">Donate</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#event" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
               <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link btn custom-btn d-lg-block d-none" style="border-radius: 2rem;">EDO 4.0</a>
             </li>
           </ul>
         </div>
@@ -196,6 +211,7 @@
       </div>
     </section>
 
+    <!-- footer section start -->
     <footer class="ftco-footer ftco-section img">
       <div class="overlay"></div>
       <div class="container">
@@ -204,28 +220,38 @@
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">About Us</h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Your Gateway to the Future of Entrepreneurship. We foster a
+                  thriving ecosystem where startups flourish, innovate, and
+                  achieve unparalleled success. <div style="color: #fd7e14;"><b>SCOMM India Innovation Foundation<br>(Not-for-profit Company)</b></div> 
               </p>
-              <ul
-                class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"
-              >
-                <li class="ftco-animate">
-                  <a href="#"><span class="icon-twitter"></span></a>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <li class="ftco-animate">
+                  <a href="https://www.linkedin.com/company/SCOMMindia/"><span class="icon-linkedin"></span></a>
                 </li>
                 <li class="ftco-animate">
-                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="https://www.facebook.com/SCOMMindia/"><span class="icon-facebook"></span></a>
                 </li>
                 <li class="ftco-animate">
-                  <a href="#"><span class="icon-instagram"></span></a>
+                  <a href="https://twitter.com/indiaSCOMM"><span class="icon-twitter"></span></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="https://www.instagram.com/SCOMMindia/"><span class="icon-instagram"></span></a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Recent Blog</h2>
-              <div class="block-21 mb-4 d-flex">
+              <h2 class="ftco-heading-2">OurChapters</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Bhubaneswar Chapter</a></li>
+                <li><a href="#" class="py-2 d-block">Sambalpur Chapter</a></li>
+                <li><a href="#" class="py-2 d-block">Raipur Chapter</a></li>
+                <!-- <li><a href="#" class="py-2 d-block">Causes</a></li>
+                <li><a href="#" class="py-2 d-block">Event</a></li>
+                <li><a href="#" class="py-2 d-block">Blog</a></li> -->
+              </ul>
+              <!-- <div class="block-21 mb-4 d-flex">
                 <a
                   class="blog-img mr-4"
                   style="background-image: url(images/image_1.jpg)"
@@ -276,19 +302,23 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="col-md-2">
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Site Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Home</a></li>
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Donate</a></li>
-                <li><a href="#" class="py-2 d-block">Causes</a></li>
-                <li><a href="#" class="py-2 d-block">Event</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
+                <li><a href="index.html" class="py-2 d-block">Home</a></li>
+                <li><a href="#about" class="py-2 d-block">About</a></li>
+                <!-- <li><a href="#" class="py-2 d-block">Donate</a></li> -->
+                <li><a href="#solutions" class="py-2 d-block">Solutions</a></li>
+                <li><a href="#event" class="py-2 d-block">Event</a></li>
+                <li><a href="#blog" class="py-2 d-block">Blog</a></li>
+                <li><a href="#blog" class="py-2 d-block"><i><u><a href="#">EDO 4.0</a></u></i></a></li>
+                <!-- <li class="nav-item">
+                  <a href="#" class="nav-link btn custom-btn d-lg-block d-none" style="border-radius: 2rem;">EDO 4.0</a>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -298,23 +328,13 @@
               <div class="block-23 mb-3">
                 <ul>
                   <li>
-                    <span class="icon icon-map-marker"></span
-                    ><span class="text"
-                      >203 Fake St. Mountain View, San Francisco, California,
-                      USA</span
-                    >
+                    <span class="icon icon-map-marker"></span><span class="text">Plot No, VM-1, VSS Nagar to Mancheswar Station Rd, DL Colony, Laxmi Nagar, Bhubaneswar, Odisha 751007</span>
                   </li>
+                  <!-- <li>
+                    <a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a>
+                  </li> -->
                   <li>
-                    <a href="#"
-                      ><span class="icon icon-phone"></span
-                      ><span class="text">+2 392 3929 210</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="icon icon-envelope"></span
-                      ><span class="text">info@yourdomain.com</span></a
-                    >
+                    <a href="mailto:info@scomm.in"><span class="icon icon-envelope"></span><span class="text">info@SCOMM.in</span></a>
                   </li>
                 </ul>
               </div>
@@ -324,20 +344,19 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy;
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              All rights reserved | This template is made with
-              <i class="icon-heart" aria-hidden="true"></i> by
-              <a href="https://colorlib.com/" target="_blank">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              All rights reserved | 
+              <!-- <i class="icon-heart" aria-hidden="true"></i> by -->
+              <a href="#" target="_blank">Terms & Conditions</a> | <a href="#" target="_blank">Privacy Policy</a>
             </p>
           </div>
         </div>
       </div>
     </footer>
+    <!-- footer section end -->
 
     <!-- loader -->
     <div id="ftco-loader" class="show fullscreen">
