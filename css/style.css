@@ -215,7 +215,22 @@ a:not([href]):not([tabindex]) {
 #logo {
   padding: 0;
   margin: 0;
-  max-height: 4px;
+}
+
+#logo > .scrollto {
+  display: flex;
+  justify-content: center;
+   margin-top: -5px;
+}
+
+#logo-img {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 1.5rem;
+  height: auto;
 }
 
 @media (max-width: 992px) {
@@ -245,7 +260,8 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none; 
+}
 
 svg:not(:root) {
   overflow: hidden; }

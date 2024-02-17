@@ -44,8 +44,12 @@
     <link rel="stylesheet" href="css/icomoon.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-
+  <body onmousedown="return false" onselectstart="return false">
+    <script>
+      document.addEventListener("contextmenu", (event) => {
+         event.preventDefault();
+      });
+   </script>
     <!-- nav bar start -->
     <nav
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
@@ -56,13 +60,14 @@
         <!-- logo -->
         <div id="logo" class="navbar-brand me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-        <!-- <a href="index.html" class="scrollto"><img src="./images/logo-sm.jpg" alt="" title=""></a> -->
+       
+        <!-- <a href="index.html" class="scrollto"><img id="logo-img" src="./images/logo-sm.png" alt="" title=""></a> -->
+        <h1><a href="index.html">SCOMM <span>INDIA</span></a></h1>
         </div>
         <!-- logo end -->
 
         <a class="navbar-brand" href="index.html"
-          ><div style="color: #fd7e14">SCOMM</div></a
+          ><div style="color: #fd7e14"></div></a
         >
         <button
           class="navbar-toggler"
@@ -96,14 +101,14 @@
             <li class="nav-item">
               <a href="#blog" class="nav-link">Blog</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="#event" class="nav-link">Events</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link btn custom-btn d-lg-block d-none" style="border-radius: 2rem;">EDO 4.0</a>
+              <a href="https://bit.ly/edo4" class="nav-link btn custom-btn d-lg-block d-none" style="border-radius: 2rem;">EDO 4.0</a>
             </li>
           </ul>
         </div>
@@ -165,7 +170,6 @@
                   thriving ecosystem where startups flourish, innovate, and
                   achieve unparalleled success.</span
                 >
-
               </div>
             </div>
           </div>
@@ -375,7 +379,7 @@
                     style="background-image: url(images/cause-4.jpg)"
                   ></div>
                   <div class="text p-3 p-md-4">
-                    <h3>Market Research & Validation</h3>
+                    <h3>Market Research</h3>
                     <p>
                       Leverage our market research expertise to gain valuable
                       insights into target markets, customer needs, and
@@ -408,7 +412,7 @@
                     style="background-image: url(images/cause-5.jpg)"
                   ></div>
                   <div class="text p-3 p-md-4">
-                    <h3>Building Your Brand Presence</h3>
+                    <h3>Building Your Brand</h3>
                     <p>
                       Develop impactful marketing strategies and compelling
                       branding initiatives to establish a strong market
@@ -569,36 +573,36 @@
     <section class="ftco-gallery">
       <div class="d-md-flex"  id="gallery">
         <a
-          href="images/cause-2.jpg"
+          href="images/gallery/1.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-          style="background-image: url(images/cause-2.jpg)"
+          style="background-image: url(images/gallery/1.jpg)"
         >
           <div class="icon d-flex justify-content-center align-items-center">
             <span class="icon-search"></span>
           </div>
         </a>
         <a
-          href="images/cause-3.jpg"
+          href="images/gallery/2.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-          style="background-image: url(images/cause-3.jpg)"
+          style="background-image: url(images/gallery/2.jpg)"
         >
           <div class="icon d-flex justify-content-center align-items-center">
             <span class="icon-search"></span>
           </div>
         </a>
         <a
-          href="images/cause-4.jpg"
+          href="images/gallery/3.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-          style="background-image: url(images/cause-4.jpg)"
+          style="background-image: url(images/gallery/3.jpg)"
         >
           <div class="icon d-flex justify-content-center align-items-center">
             <span class="icon-search"></span>
           </div>
         </a>
         <a
-          href="images/cause-5.jpg"
+          href="images/gallery/4.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-          style="background-image: url(images/cause-5.jpg)"
+          style="background-image: url(images/gallery/4.jpg)"
         >
           <div class="icon d-flex justify-content-center align-items-center">
             <span class="icon-search"></span>
@@ -607,36 +611,36 @@
       </div>
       <div class="d-md-flex">
         <a
-          href="images/cause-6.jpg"
+          href="images/gallery/5.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-          style="background-image: url(images/cause-6.jpg)"
+          style="background-image: url(images/gallery/5.jpg)"
         >
           <div class="icon d-flex justify-content-center align-items-center">
             <span class="icon-search"></span>
           </div>
         </a>
         <a
-          href="images/image_3.jpg"
+          href="images/gallery/6.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-          style="background-image: url(images/image_3.jpg)"
+          style="background-image: url(images/gallery/6.jpg)"
         >
           <div class="icon d-flex justify-content-center align-items-center">
             <span class="icon-search"></span>
           </div>
         </a>
         <a
-          href="images/image_1.jpg"
+          href="images/gallery/7.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-          style="background-image: url(images/image_1.jpg)"
+          style="background-image: url(images/gallery/7.jpg)"
         >
           <div class="icon d-flex justify-content-center align-items-center">
             <span class="icon-search"></span>
           </div>
         </a>
         <a
-          href="images/image_2.jpg"
+          href="images/gallery/8.jpg"
           class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-          style="background-image: url(images/image_2.jpg)"
+          style="background-image: url(images/gallery/8.jpg)"
         >
           <div class="icon d-flex justify-content-center align-items-center">
             <span class="icon-search"></span>
@@ -673,14 +677,14 @@
                   </div>
                 </div>
                 <h3 class="heading mt-3">
-                  <a href="#">Hurricane Irma has devastated Florida</a>
+                  <a href="https://scommindia.blogspot.com/2024/02/scomm-india-entrepreneur-day-out-30.html">SCOMM India Entrepreneur Day Out 3.0</a>
                 </h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Throughout the day, attendees had the opportunity to attend a diverse range of sessions and 
+                  workshops covering various aspects of entrepreneurship.
                 </p>
                 <p>
-                  <a href="#" target="_blank"
+                  <a href="https://scommindia.blogspot.com/2024/02/scomm-india-entrepreneur-day-out-30.html" target="_blank"
                     ><i><u>Read more</u></i></a
                   >
                 </p>
@@ -701,14 +705,14 @@
                   </div>
                 </div>
                 <h3 class="heading mt-3">
-                  <a href="#">Hurricane Irma has devastated Florida</a>
+                  <a href="https://scommindia.blogspot.com/2024/02/empowering-entrepreneurs-recap-of-scomm.html">Empowering Entrepreneurs: SCOMM India and ICICI Bank Collaboration</a>
                 </h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  One of the standout features of the event was the keynote address delivered by 
+                  prominent leaders from both organizations.
                 </p>
                 <p>
-                  <a href="#" target="_blank"
+                  <a href="https://scommindia.blogspot.com/2024/02/empowering-entrepreneurs-recap-of-scomm.html" target="_blank"
                     ><i><u>Read more</u></i></a
                   >
                 </p>
@@ -729,14 +733,14 @@
                   </div>
                 </div>
                 <h3 class="heading mt-3">
-                  <a href="#">Hurricane Irma has devastated Florida</a>
+                  <a href="https://scommindia.blogspot.com/2024/02/celebrating-comedy-and-creativity-recap.html">SCOMM India and AE Akasha Tale Meet and Greet</a>
                 </h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. <br />
+                  Laughter echoed through the halls as SCOMM India and AE Akasha Tale joined forces to host memorable
+                  Meet and Greet event with Odisha's finest stand-up comedians and actors. <br/>
                 </p>
                 <p>
-                  <a href="#" target="_blank"
+                  <a href="https://scommindia.blogspot.com/2024/02/celebrating-comedy-and-creativity-recap.html" target="_blank"
                     ><i><u>Read more</u></i></a
                   >
                 </p>
@@ -764,7 +768,7 @@
               <a
                 href=""
                 class="block-20"
-                style="background-image: url('images/image_1.jpg')"
+                style="background-image: url('images/chapters/1.jpg')"
               >
               </a>
               <div class="text p-4 d-block">
@@ -778,11 +782,10 @@
                   </div>
                 </div>
                 <h3 class="heading mt-3">
-                  <a href="#">Bhubaneswar</a>
+                  <a href="#">Bhubaneswar Chapter</a>
                 </h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Bhubaneswar, capital of Odisha, India, is known for its rich history, ancient temples, vibrant culture, and growing IT industry.
                 </p>
               </div>
             </div>
@@ -792,7 +795,7 @@
               <a
                 href="#"
                 class="block-20"
-                style="background-image: url('images/image_2.jpg')"
+                style="background-image: url('images/chapters/2.jpg')"
               >
               </a>
               <div class="text p-4 d-block">
@@ -809,8 +812,7 @@
                   <a href="#">Sambalpur Chapter<a>
                 </h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Sambalpur, located in Odisha, India, is renowned for its textile industry, historic temples, scenic beauty, and cultural festivals.
                 </p>
               </div>
             </div>
@@ -820,7 +822,7 @@
               <a
                 href="#"
                 class="block-20"
-                style="background-image: url('images/image_3.jpg')"
+                style="background-image: url('images/chapters/3.jpg')"
               >
               </a>
               <div class="text p-4 d-block">
@@ -837,8 +839,7 @@
                   <a href="#">Raipur Chapter</a>
                 </h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Raipur, the capital city of Chhattisgarh, India, is known for its vibrant culture, rich history, educational institutions, and emerging industrial sector.
                 </p>
               </div>
             </div>
@@ -848,7 +849,7 @@
     </section>
 
     <!-- Event section -->
-    <section class="ftco-section bg-light">
+    <!-- <section class="ftco-section bg-light">
       <div class="container"  id="event">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
@@ -975,7 +976,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Volunteer section -->
     <section
@@ -1162,7 +1163,7 @@
                     <a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a>
                   </li> -->
                   <li>
-                    <a href="mailto:info@scomm.in"><span class="icon icon-envelope"></span><span class="text">info@SCOMM.in</span></a>
+                    <a href="mailto:info@scomm.in"><span class="icon icon-envelope"></span><span class="text">info@scomm.in</span></a>
                   </li>
                 </ul>
               </div>
@@ -1176,9 +1177,9 @@
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              All rights reserved | 
+              | All rights reserved | SCOMM India Innovation Foundation
               <!-- <i class="icon-heart" aria-hidden="true"></i> by -->
-              <a href="#" target="_blank">Terms & Conditions</a> | <a href="#" target="_blank">Privacy Policy</a>
+              <!-- <a href="#" target="_blank">Terms & Conditions</a> | <a href="#" target="_blank">Privacy Policy</a> -->
             </p>
           </div>
         </div>
@@ -1229,6 +1230,4 @@
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
   </body>
-
-  <!-- Mirrored from themewagon.github.io/welfare/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Feb 2024 18:04:28 GMT -->
 </html>
